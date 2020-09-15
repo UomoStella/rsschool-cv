@@ -1,7 +1,9 @@
 # Curriculum vitae
 
 **First name:** Valery
+
 **Last Name:**  Stouba
+
 **Sex:** Male
 
 ## Contact info
