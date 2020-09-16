@@ -10,6 +10,7 @@
 
 **Email:** vvstouba@gmail.com
  
+ 
  ## Summary
  
 The main goal of taking the courses is to gain more experience in programming with JavaScript frameworks and passing test tasks out of boredom.
