@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Valery Stouba CV</title>
+    <link rel="stylesheet" href="resources\css\style.css">
+  </head>
+
+  <body class="curriculum-vitae-body">
+    <main class="container-cv">
+		<div id="curriculum-vitae">
+			<h1>Curriculum vitae</h1>
+			<img src="resources\img\Felix_the_Cat.png" height="156" width="156" alt="Photo">
+			<p><b>First name:</b> Valery</p>
+			<p><b>Last name:</b> Stouba</p>
+			<p><b>Sex:</b> Male</p>
+		</div>
+
+		<div id="contact-info">
+			<a href="#contact-info"><h2>Contact info</h2></a>
+			<p><b>Email:</b> vvstouba@gmail.com</p>
+		</div>
+	 
+		<div id="summary">
+			<a href="#summary"><h2>Summary</h2></a>
+			<p>The main goal of taking the courses is to gain more experience in programming with JavaScript frameworks and passing test tasks out of boredom.</p>
+		</div>
+		
+		<div id="skills">
+			<a href="#skills"><h2>Skills</h2></a>
+			<p>The main goal of taking the courses is to gain more experience in programming with JavaScript frameworks and passing test tasks out of boredom.</p>
+			<div class="skils-list">
+				<b>Programming languages</b>
+				<ul>
+					<li>JavaScript</li>
+					<li>Java</li>
+					<li>SQL</li>
+				</ul>
+				
+				<b>Frameworks</b>
+				<ul> 
+					<li>React</li>
+					<li>Spring</li>
+				</ul>
+				
+				<b>Tools & Technologies</b>
+				<ul>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>MySQL</li>
+					<li>jQuery</li>
+					<li>Git</li>
+					<li>Jira</li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="code-samples">
+			<a href="#code-samples"><h2>Code samples</h2></a>
+			<code>
+			<pre>
+	public final class Singleton {
+		private static Singleton instance;
+		public String value;
+
+		private Singleton(String value) {
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException ex) {
+				ex.printStackTrace();
+			}
+			this.value = value;
+		}
+
+		public static Singleton getInstance(String value) {
+			if (instance == null) {
+				instance = new Singleton(value);
+			}
+			return instance;
+		}
+	}
+			</pre>
+			</code>
+		</div>
+		
+		<div id="education">
+			<a href="#education"><h2>Education</h2></a>
+			<table>
+				<thead>
+					<tr>
+						<th>Education institution name</th>
+						<th>Degree</th>
+						<th>Field of study</th>
+						<th>Qualification</th>
+						<th>Start Year</th>
+						<th>End Year (or expected)</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Minsk College of Business and Law</td>
+						<td>Specialist degree</td>
+						<td>Information technology software</td>
+						<td>Software technician</td>
+						<td class="text-center">2012</td>
+						<td class="text-center">2016</td>
+					</tr>
+					<tr>
+						<td>Belarusian State University of Informatics and Radioelectronics</td>
+						<td>Bachelor’s degree</td>
+						<td>Information technology software</td>
+						<td>Software engineer</td>
+						<td class="text-center">2016</td>
+						<td class="text-center">2020</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="english">
+			<a href="#english"><h2>English</h2></a>
+			<p>Pre-intermediate :(</p>
+		</div>
+	 
+    </main>
+
+  </body>
+
+</html>
